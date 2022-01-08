@@ -6,22 +6,7 @@
 	<groupId>org.restflow</groupId>
 	<artifactId>YamlSpringLoader</artifactId>
 	<packaging>jar</packaging>
-	<version>3.1</version>
-  
-    <repositories>
-        <repository>
-        <id>org.restflow</id>
-        <name>restflow.org maven repository</name>
-        <url>http://restflow.org/mavenrepo</url>
-        </repository>
-    </repositories>
-    
-	<distributionManagement>
-		<repository>
-			<id>org.restflow</id>
-			<url>${org.restflow.deployment.url}</url>
-		</repository>
-  	</distributionManagement>
+	<version>3.1.1-SNAPSHOT</version>
   
 	<dependencies>
 	
@@ -76,7 +61,7 @@
 	    <dependency>
 	      <groupId>log4j</groupId>
 	      <artifactId>log4j</artifactId>
-	      <version>1.2.15</version>
+	      <version>1.2.17</version>
 	      <optional>true</optional>
 	      <exclusions>
 	        <exclusion>  <!-- declare the exclusion here -->
